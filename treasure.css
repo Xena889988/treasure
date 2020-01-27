@@ -1,0 +1,70 @@
+* {
+	font-family: cursive;
+}
+body {
+	background-image: url(https://storage.needpix.com/rsynced_images/sunset-in-san-diego-cardiff-ca.jpg);
+
+	background-size: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font: 1em sans-serif:
+	text-align: center;
+	border-bottom: 3px solid #444
+	display: flex;
+	height: 150;
+	width: 100%;
+	align-self: flex-end;
+	background-image: url(http://pngimg.com/uploads/sun/sun_PNG13449.png);
+	height: 100px;
+	margin: 0 auto 0 auto;
+	width: 200px;
+	animation-name: bounce;
+	animation-timing-function: ease;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	transform-origin: bottom;
+}
+@keyframes bounce{
+	0% {transform: scale(1,1)   translateY(0);}
+	10% {transform: scale(1.1,.9)   translateY(0);}
+	30% {transform: scale(.9,1.1)   translateY(-100px);}
+	50% {transform: scale(1,1)   translateY(0);}
+	57% {transform: scale(1,1)   translateY(-7px);}
+	64% {transform: scale(1,1)   translateY(0);}
+	100% {transform: scale(1,1)   translateY(0);}
+
+
+}
+#gameboard{
+		background-color: #1fc1c4;
+		background-image:url();
+		text-align: center;
+		font-size: 100px
+}
+
+td {
+	border-style: solid;
+	height: 150px;
+	width: 150px;
+}
+button {
+	font-size: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#counter {
+	color: white;
+	font-size: 50px;
+	font-style: oblique;
+
+}
+ul {
+	font-size: 50px;
+}
